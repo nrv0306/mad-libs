@@ -7,29 +7,37 @@
 <body>
 
   <form>
-    -=-: <input ng-model="-=-" placeholder="-=-"></input> <br />
-    -=-: <input ng-model="-=-" placeholder="-=-"></input> <br />
-    -=-: <input ng-model="-=-" placeholder="-=-"></input> <br />
-    -=-: <input ng-model="-=-" placeholder="-=-"></input> <br />
-    -=-: <input ng-model="-=-" placeholder="-=-"></input> <br />
+    Name: <input ng-model="name" placeholder="Name"></input> <br />
+    Place: <input ng-model="place" placeholder="Place"></input> <br />
+    Friends Name: <input ng-model="Fname" placeholder="Friends Name"></input> <br />
+    Place you travel for: <input ng-model="Place" placeholder="Place"></input> <br />
+    Ride: <input ng-model="ride" placeholder="Ride"></input> <br />
+    Sport: <input ng-model="sport" placeholder="Sport"></input> <br />
+    Activity 1: <input ng-model="ac1" placeholder="Activity 1"></input> <br />
+    Activity 2: <input ng-model="ac2" placeholder="Activity 2"></input> <br />
+    Activity for Dads: <input ng-model="acD" placeholder="Activity for Dads"></input> <br />
+    Activity for Moms: <input ng-model="acM" placeholder="Activity for Moms"></input> <br />
+    Area with hole: <input ng-model="hole" placeholder="Area with hole"></input> <br />
+    Family Activity: <input ng-model="acF" placeholder="Family Activity"></input> <br />
+    Activity for self: <input ng-model="acS" placeholder="Activity for self"></input> <br />
+    Activity for Parents: <input ng-model="acP" placeholder="Activity for Parents"></input> <br />
+    Number of hours: <input ng-model="hours" placeholder="Number of hours"></input> <br />
+    Money: <input ng-model="money" placeholder="Money"></input> <br />
   </form>
 
-  <p>A vacation is when you take a trip to some {{ -=- }} place
-with your {{ -=- }} family. Usually you go to some place
-that is near a/an {{ -=- }} or up on a/an {{ -=- }}.
-A good vacation place is one where you can ride {{ -=- }} 
-or play {{ -=- }}  or go hunting for {{ -=- }}  . I like
-to spend my time {{ -=- }} or {{ -=- }}.
-When parents go on a vacation, they spend their time eating
-three {{ -=- }} a day, and fathers play golf, and mothers
-sit around {{ -=- }}. Last summer, my little brother
-fell in a/an {{ -=- }}  and got poison {{ -=- }}  all
-over his {{ -=- }}. My family is going to go to (the)
-{{ -=- }} , and I will practice {{ -=- }}. Parents
-need vacations more than kids because parents are always very
-{{ -=- }} and because they have to work {{ -=- }} 
-hours every day all year making enough {{ -=- }}  to pay
-for the vacation.</p>
+  <p>{{ name }} took a trip to {{ place }}
+with {{ Fname }}. Usually you go to some place
+that is near a/an {{ Place }}.
+A good vacation place is one where you can ride {{ ride }} 
+or play {{ sport }}. I like
+to spend my time {{ ac1 }} or {{ ac2 }}.
+When parents go on a vacation, fathers play {{ acD }}, and mothers
+{{ acM }}. Last summer, my little brother
+fell in a/an {{ hole }}. My family is going to go to (the)
+{{ acF }} , and I will go to the {{ acS }}. Parents
+need vacations more than kids because parents are always
+{{ acP }} and because they have to work {{ hours }} 
+hours every day all year and only make {{ money }}.</p>
 
 </body>
 </html>
